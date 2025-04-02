@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ArchiveHist.Models.Map>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MapName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearRange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistManufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DigitizedLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Removed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CIdNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MapName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearRange)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArtistManufacturer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DigitizedLink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Removed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

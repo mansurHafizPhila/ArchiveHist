@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ArchiveHist.Models.Oversized>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BuildingName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearRange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyArchitect)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Drawer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SideNotes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CIdNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuildingName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearRange)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyArchitect)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Drawer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SideNotes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
