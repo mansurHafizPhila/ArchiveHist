@@ -1,7 +1,12 @@
 using Microsoft.AspNetCore.Authentication.Negotiate;
+using ArchiveHist.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("ArchiveContext");
+builder.Services.AddDbContext<ArchiveHistContext>(options => options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,0 +1,84 @@
+﻿@model ArchiveHist.Models.Research
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Research</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="RId" />
+            <div class="form-group">
+                <label asp-for="ResearcherName" class="control-label"></label>
+                <input asp-for="ResearcherName" class="form-control" />
+                <span asp-validation-for="ResearcherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Team" class="control-label"></label>
+                <input asp-for="Team" class="form-control" />
+                <span asp-validation-for="Team" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VisitedArchives" class="control-label"></label>
+                <input asp-for="VisitedArchives" class="form-control" />
+                <span asp-validation-for="VisitedArchives" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TopicCategory" class="control-label"></label>
+                <input asp-for="TopicCategory" class="form-control" />
+                <span asp-validation-for="TopicCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpecificInquiry" class="control-label"></label>
+                <input asp-for="SpecificInquiry" class="form-control" />
+                <span asp-validation-for="SpecificInquiry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionOfTasksInvolved" class="control-label"></label>
+                <input asp-for="DescriptionOfTasksInvolved" class="form-control" />
+                <span asp-validation-for="DescriptionOfTasksInvolved" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ScansTaken" class="control-label"></label>
+                <input asp-for="ScansTaken" class="form-control" />
+                <span asp-validation-for="ScansTaken" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReceivingArchivist" class="control-label"></label>
+                <input asp-for="ReceivingArchivist" class="form-control" />
+                <span asp-validation-for="ReceivingArchivist" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CId" class="control-label"></label>
+                <select asp-for="CId" class="form-control" asp-items="ViewBag.CId"></select>
+                <span asp-validation-for="CId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
