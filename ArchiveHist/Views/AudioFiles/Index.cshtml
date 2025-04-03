@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Audio Files</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -24,8 +24,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            @* made link clickable *@
             <td>
-                @Html.DisplayFor(modelItem => item.LinkName)
+                <a href="@item.LinkName" target="_blank">@item.LinkName</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CIdNavigation.CId)

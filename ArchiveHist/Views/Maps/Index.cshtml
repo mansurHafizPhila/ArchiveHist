@@ -46,7 +46,7 @@
                 @Html.DisplayFor(modelItem => item.ArtistManufacturer)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DigitizedLink)
+                <a href="@item.DigitizedLink" target="_blank">@item.DigitizedLink</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Removed)

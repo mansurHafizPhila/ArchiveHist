@@ -55,7 +55,7 @@
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Links)
+                <a href="@item.Links" target="_blank">@item.Links</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CIdNavigation.CId)

@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <img src="Images/DPD_belllogo.png" alt="DPD Logo" />
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <div class="d-flex flex-row">
@@ -39,12 +40,16 @@
                 </div>
                 <p class="nav navbar-text">Hello, @User.Identity?.Name!</p>
                 </div>
-            </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container p-0">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <div class="position-relative background-container">
+                <img src="~/Images/CityHall.png" alt="City Hall" class="background-image" />
+                <div class="content-overlay">
+                    @RenderBody()
+                </div>
+            </div>
         </main>
     </div>
 
@@ -59,3 +64,28 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    .background-container {
+        position: relative;
+        width: 100%;
+        min-height: 80vh;
+        overflow: hidden;
+    }
+
+    .background-image {
+        position: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .content-overlay {
+        position: relative;
+        z-index: 2;
+        padding: 10px;
+        color: #000;
+    }
+</style>
