@@ -10,36 +10,36 @@
 </head>
 <body>
     <header>
-        <img src="Images/DPD_belllogo.png" alt="DPD Logo" />
+        <img src="~/Images/DPD_belllogo.png" alt="DPD Logo" />
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <div class="d-flex flex-row">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ArchiveHist</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="dropdown p-2">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black; background-color:white; border:none; font-family:Arial; font-size:90%;">
-                        <b>Tables</b>
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ArchiveHist</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" asp-controller="AudioFiles" asp-action="Index">Audio Files</a>
-                        <a class="dropdown-item" asp-controller="Collections" asp-action="Index">Collections</a>
-                        <a class="dropdown-item" asp-controller="Delanceys" asp-action="Index">Delancey</a>
-                        <a class="dropdown-item" asp-controller="Maps" asp-action="Index">Maps</a>
-                        <a class="dropdown-item" asp-controller="Oversizeds" asp-action="Index">Oversizes</a>
-                        <a class="dropdown-item" asp-controller="Photos" asp-action="Index">Photos</a>
-                        <a class="dropdown-item" asp-controller="PoisonBooks" asp-action="Index">Poison Books</a>
-                        <a class="dropdown-item" asp-controller="ReportsPubs" asp-action="Index">Reports & Publications</a>
-                        <a class="dropdown-item" asp-controller="Researches" asp-action="Index">Research</a>
-                        <a class="dropdown-item" asp-controller="Trunks" asp-action="Index">Trunks</a>
+                    <div class="dropdown p-2">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black; background-color:white; border:none; font-family:Arial; font-size:90%;">
+                            <b>Tables</b>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" asp-controller="AudioFiles" asp-action="Index">Audio Files</a>
+                            <a class="dropdown-item" asp-controller="Collections" asp-action="Index">Collections</a>
+                            <a class="dropdown-item" asp-controller="Delanceys" asp-action="Index">Delancey</a>
+                            <a class="dropdown-item" asp-controller="Maps" asp-action="Index">Maps</a>
+                            <a class="dropdown-item" asp-controller="Oversizeds" asp-action="Index">Oversizes</a>
+                            <a class="dropdown-item" asp-controller="Photos" asp-action="Index">Photos</a>
+                            <a class="dropdown-item" asp-controller="PoisonBooks" asp-action="Index">Poison Books</a>
+                            <a class="dropdown-item" asp-controller="ReportsPubs" asp-action="Index">Reports & Publications</a>
+                            <a class="dropdown-item" asp-controller="Researches" asp-action="Index">Research</a>
+                            <a class="dropdown-item" asp-controller="Trunks" asp-action="Index">Trunks</a>
+                        </div>
                     </div>
-                </div>
-                   
+
                 </div>
                 <p class="nav navbar-text">Hello, @User.Identity?.Name!</p>
-                </div>
+            </div>
         </nav>
     </header>
     <div class="container p-0">
@@ -48,6 +48,23 @@
                 <img src="~/Images/CityHall.png" alt="City Hall" class="background-image" />
                 <div class="content-overlay">
                     @RenderBody()
+                    <div class="dropdown p-2">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="insertDataDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Insert Data For...
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="insertDataDropdown">
+                            <a class="dropdown-item" asp-controller="AudioFiles" asp-action="Create">Audio Files</a>
+                            <a class="dropdown-item" asp-controller="Collections" asp-action="Create">Collections</a>
+                            <a class="dropdown-item" asp-controller="Delanceys" asp-action="Create">Delancey</a>
+                            <a class="dropdown-item" asp-controller="Maps" asp-action="Create">Maps</a>
+                            <a class="dropdown-item" asp-controller="Oversizeds" asp-action="Create">Oversizes</a>
+                            <a class="dropdown-item" asp-controller="Photos" asp-action="Create">Photos</a>
+                            <a class="dropdown-item" asp-controller="PoisonBooks" asp-action="Create">Poison Books</a>
+                            <a class="dropdown-item" asp-controller="ReportsPubs" asp-action="Create">Reports & Publications</a>
+                            <a class="dropdown-item" asp-controller="Researches" asp-action="Create">Research</a>
+                            <a class="dropdown-item" asp-controller="Trunks" asp-action="Create">Trunks</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

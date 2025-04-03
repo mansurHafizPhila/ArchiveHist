@@ -4,11 +4,17 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Poison Books</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<div class="mb-3">
+    <span>Show items: </span>
+    <a asp-action="Index" asp-route-pageSize="20" class="btn btn-sm @(ViewBag.PageSize == 20 ? "btn-primary" : "btn-outline-primary")">20</a>
+    <a asp-action="Index" asp-route-pageSize="50" class="btn btn-sm @(ViewBag.PageSize == 50 ? "btn-primary" : "btn-outline-primary")">50</a>
+    <a asp-action="Index" asp-route-pageSize="-1" class="btn btn-sm @(ViewBag.PageSize == -1 ? "btn-primary" : "btn-outline-primary")">All</a>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -69,3 +75,20 @@
 }
     </tbody>
 </table>
+@if (ViewBag.PageSize != -1)
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.PageNumber ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-pageSize="@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+
+<div class="text-muted">
+    Showing @(ViewBag.PageSize == -1 ? "all" : $"{Math.Min((ViewBag.PageNumber - 1) * ViewBag.PageSize + 1, ViewBag.TotalCount)} - {Math.Min(ViewBag.PageNumber * ViewBag.PageSize, ViewBag.TotalCount)}") of @ViewBag.TotalCount items
+</div>

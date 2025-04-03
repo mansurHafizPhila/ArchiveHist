@@ -19,10 +19,33 @@ namespace ArchiveHist.Controllers
         }
 
         // GET: Researches
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageSize, int? pageNumber)
         {
-            var archiveContext = _context.Researches.Include(r => r.CIdNavigation);
-            return View(await archiveContext.ToListAsync());
+            int pageSizeValue = pageSize ?? 20; // Default to 20 items
+            int pageNumberValue = pageNumber ?? 1; // Default to page 1
+
+            ViewBag.PageSize = pageSizeValue;
+            ViewBag.PageNumber = pageNumberValue;
+
+            var allRecords = await _context.Researches.Include(r => r.CIdNavigation).ToListAsync();
+
+            ViewBag.TotalCount = allRecords.Count;
+
+            // Calculate total pages
+            ViewBag.TotalPages = pageSizeValue == -1
+                ? 1
+                : (int)Math.Ceiling((double)ViewBag.TotalCount / pageSizeValue);
+
+            // Apply pagination only if not showing all
+            if (pageSizeValue != -1)
+            {
+                allRecords = allRecords
+                                   .Skip((pageNumberValue - 1) * pageSizeValue)
+                                   .Take(pageSizeValue)
+                                   .ToList();
+            }
+
+            return View(allRecords);
         }
 
         // GET: Researches/Details/5
