@@ -71,8 +71,9 @@ namespace ArchiveHist.Controllers
         // GET: PoisonBooks/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 5);
+            var poison = new PoisonBook { CId = 5 };
+            return View(poison);
         }
 
         // POST: PoisonBooks/Create

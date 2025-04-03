@@ -71,8 +71,9 @@ namespace ArchiveHist.Controllers
         // GET: Delanceys/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 1);
+            var delancey = new Delancey { CId = 1 };
+            return View(delancey);
         }
 
         // POST: Delanceys/Create

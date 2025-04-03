@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: ReportsPubs/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 6);
+            var reports = new ReportsPub { CId = 6 };
+            return View(reports);
         }
 
         // POST: ReportsPubs/Create

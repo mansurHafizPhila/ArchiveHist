@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: Oversizeds/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 3);
+            var oversized = new Oversized { CId = 3 };
+            return View(oversized);
         }
 
         // POST: Oversizeds/Create

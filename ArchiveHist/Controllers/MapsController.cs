@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: Maps/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId",2);
+            var maps = new Map { CId = 2 };
+            return View(maps);
         }
 
         // POST: Maps/Create

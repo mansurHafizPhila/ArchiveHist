@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\delanceyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\delanceyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\oversizedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\oversizedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\collections\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\collections\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\audiofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\audiofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\audiofiles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\audiofiles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\audiofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\audiofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\oversizeds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\oversizeds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ArchiveHist\\Views\\Shared\\_Layout.cshtml",
@@ -57,86 +41,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OversizedsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\OversizedsController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\OversizedsController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\OversizedsController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\OversizedsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "AudioFilesController.cs",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\AudioFilesController.cs",
+              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\AudioFilesController.cs",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\AudioFilesController.cs",
+              "RelativeToolTip": "ArchiveHist\\Controllers\\AudioFilesController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:53:49.267Z",
+              "WhenOpened": "2025-04-03T15:59:13.267Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Oversizeds\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Oversizeds\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Oversizeds\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\Oversizeds\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\AudioFiles\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArchiveHist\\Views\\AudioFiles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\AudioFiles\\Create.cshtml",
+              "RelativeToolTip": "ArchiveHist\\Views\\AudioFiles\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T14:53:59.788Z",
+              "WhenOpened": "2025-04-03T17:49:42.482Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DelanceysController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\DelanceysController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\DelanceysController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\DelanceysController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\DelanceysController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:34:02.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Collections\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Collections\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Collections\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\Collections\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T15:28:37.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\AudioFiles\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\AudioFiles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\AudioFiles\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\AudioFiles\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T15:26:24.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AudioFilesController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\AudioFilesController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\AudioFilesController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\AudioFilesController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\AudioFilesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:26:20.325Z",
-              "EditorCaption": ""
             }
           ]
         }

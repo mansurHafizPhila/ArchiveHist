@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: Photos/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 4);
+            var photo = new Photo { CId = 4 };
+            return View(photo);
         }
 
         // POST: Photos/Create

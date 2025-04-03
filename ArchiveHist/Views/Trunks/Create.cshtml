@@ -44,7 +44,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="CId" class="control-label"></label>
-                <select asp-for="CId" class ="form-control" asp-items="ViewBag.CId"></select>
+                <select asp-for="CId" class ="form-control" asp-items="ViewBag.CId" disabled></select>
+                <input type="hidden" name="CId" value="8" />
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

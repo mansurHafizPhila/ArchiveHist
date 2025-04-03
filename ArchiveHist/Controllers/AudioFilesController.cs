@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: AudioFiles/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId",9);
+            var audioFile = new AudioFile { CId = 9 };
+            return View(audioFile);
         }
 
         // POST: AudioFiles/Create

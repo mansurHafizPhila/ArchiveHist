@@ -70,8 +70,9 @@ namespace ArchiveHist.Controllers
         // GET: Trunks/Create
         public IActionResult Create()
         {
-            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId");
-            return View();
+            ViewData["CId"] = new SelectList(_context.Collections, "CId", "CId", 8);
+            var trunk = new Trunk { CId = 8 };
+            return View(trunk);
         }
 
         // POST: Trunks/Create
