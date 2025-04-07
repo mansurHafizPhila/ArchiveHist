@@ -22,7 +22,7 @@ namespace ArchiveHist.Controllers
         // GET: Delanceys
         public async Task<IActionResult> Index(int? pageSize, int? pageNumber)
         {
-            int pageSizeValue = pageSize ?? 20; // Default to 20 items
+            int pageSizeValue = pageSize ?? 50; // Default to 50 items
             int pageNumberValue = pageNumber ?? 1; // Default to page 1
 
             ViewBag.PageSize = pageSizeValue;

@@ -29,6 +29,39 @@ namespace ArchiveHist.Controllers
 
             var allRecords = await _context.AudioFiles.Include(a => a.CIdNavigation).ToListAsync();
 
+            foreach (var record in allRecords)
+            {
+                if (record.LinkName != null)
+                {
+                    // Extract file name from URL
+                    string displayName;
+                    if (record.LinkName.Contains("UniqueId="))
+                    {
+                        // Extract the UniqueId parameter
+                        var uniqueId = record.LinkName.Split("UniqueId=")[1].Split("&")[0];
+                        displayName = $"Audio File {uniqueId.Substring(0, 8)}";
+                    }
+                    else
+                    {
+                        // Use last segment of URL path
+                        var segments = record.LinkName.TrimEnd('/').Split('/');
+                        displayName = segments[segments.Length - 1].Replace("%20", " ");
+
+                        // Remove query parameters if any
+                        if (displayName.Contains('?'))
+                        {
+                            displayName = displayName.Split('?')[0];
+                        }
+                    }
+
+                    record.DisplayName = displayName;
+                }
+                else
+                {
+                    record.DisplayName = "Audio File";
+                }
+            }
+
             ViewBag.TotalCount = allRecords.Count;
 
             // Calculate total pages

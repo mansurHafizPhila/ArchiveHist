@@ -15,37 +15,39 @@
     <a asp-action="Index" asp-route-pageSize="50" class="btn btn-sm @(ViewBag.PageSize == 50 ? "btn-primary" : "btn-outline-primary")">50</a>
     <a asp-action="Index" asp-route-pageSize="-1" class="btn btn-sm @(ViewBag.PageSize == -1 ? "btn-primary" : "btn-outline-primary")">All</a>
 </div>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.LinkName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CIdNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            @* made link clickable *@
-            <td>
-                <a href="@item.LinkName" target="_blank">@item.LinkName</a>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.AId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.AId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.AId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div style="width: 100%; overflow-x: auto; white-space: nowrap;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.LinkName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CIdNavigation)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                @* made link clickable *@
+                <td>
+                    <a href="@item.LinkName" target="_blank">@item.DisplayName</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.AId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AId">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>
 @if (ViewBag.PageSize != -1)
 {
     <nav aria-label="Page navigation">

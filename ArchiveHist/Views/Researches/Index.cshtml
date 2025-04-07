@@ -15,90 +15,92 @@
     <a asp-action="Index" asp-route-pageSize="50" class="btn btn-sm @(ViewBag.PageSize == 50 ? "btn-primary" : "btn-outline-primary")">50</a>
     <a asp-action="Index" asp-route-pageSize="-1" class="btn btn-sm @(ViewBag.PageSize == -1 ? "btn-primary" : "btn-outline-primary")">All</a>
 </div>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ResearcherName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Team)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VisitedArchives)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TopicCategory)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SpecificInquiry)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescriptionOfTasksInvolved)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ScansTaken)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReceivingArchivist)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Notes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CIdNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ResearcherName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Team)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VisitedArchives)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TopicCategory)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpecificInquiry)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DescriptionOfTasksInvolved)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ScansTaken)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReceivingArchivist)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Notes)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.RId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.RId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.RId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div style="width: 100%; overflow-x: auto; white-space: nowrap;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ResearcherName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Team)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VisitedArchives)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TopicCategory)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SpecificInquiry)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DescriptionOfTasksInvolved)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ScansTaken)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReceivingArchivist)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Notes)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CIdNavigation)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ResearcherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Team)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VisitedArchives)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TopicCategory)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpecificInquiry)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescriptionOfTasksInvolved)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ScansTaken)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReceivingArchivist)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Notes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.RId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.RId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.RId">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>
 @if (ViewBag.PageSize != -1)
 {
     <nav aria-label="Page navigation">
