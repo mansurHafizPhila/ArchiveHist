@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ArchiveHist.Models;
+using System.Data;
+using Microsoft.Data.SqlClient;
 
 namespace ArchiveHist.Controllers
 {
@@ -19,9 +21,136 @@ namespace ArchiveHist.Controllers
         }
 
         // GET: Collections
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageSize, int? pageNumber, string searchString, string category, string column, string specificData)
         {
-            return View(await _context.Collections.ToListAsync());
+            int pageSizeValue = pageSize ?? 20; // Default to 20 items
+            int pageNumberValue = pageNumber ?? 1; // Default to page 1
+
+            // Set up ViewBag for search and pagination
+            ViewBag.PageSize = pageSizeValue;
+            ViewBag.PageNumber = pageNumberValue;
+            ViewBag.CurrentSearchString = searchString;
+            ViewBag.CurrentCategory = category ?? "All";
+            ViewBag.CurrentColumn = column ?? "All";
+            ViewBag.CurrentSpecificData = specificData ?? "All";
+            ViewBag.Title = "Collection of Tables";
+
+            // Start with all collections
+            var query = _context.Collections.AsQueryable();
+
+            // Apply search filters if provided
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(c =>
+                    (c.CName != null && c.CName.Contains(searchString)) ||
+                    (c.Description != null && c.Description.Contains(searchString))
+                );
+            }
+
+            // Apply column filter
+            if (!string.IsNullOrEmpty(column) && column != "All")
+            {
+                if (column == "CName")
+                {
+                    query = query.Where(c => c.CName != null);
+                }
+                else if (column == "Description")
+                {
+                    query = query.Where(c => c.Description != null);
+                }
+                // Add more column filters as needed
+            }
+
+            // Apply specific data filter
+            if (!string.IsNullOrEmpty(specificData) && specificData != "All")
+            {
+                // Implementation depends on your specific needs
+                // Example: filter by specific content in the description
+                query = query.Where(c =>
+                    c.Description != null &&
+                    c.Description.Contains(specificData)
+                );
+            }
+
+            // Get the total count before pagination
+            var allRecords = await query.ToListAsync();
+            ViewBag.TotalCount = allRecords.Count;
+
+            // Calculate total pages
+            ViewBag.TotalPages = pageSizeValue == -1
+                ? 1
+                : (int)Math.Ceiling((double)ViewBag.TotalCount / pageSizeValue);
+
+            // Apply pagination only if not showing all
+            if (pageSizeValue != -1)
+            {
+                allRecords = allRecords
+                    .Skip((pageNumberValue - 1) * pageSizeValue)
+                    .Take(pageSizeValue)
+                    .ToList();
+            }
+            ViewBag.Columns = new List<string> { "All", "CName", "Description" };
+
+            // Example of specific data options
+            var specificDataOptions = new List<string> { "All" };
+
+            // Add collection names as specific data options
+            var collectionNames = await _context.Collections
+                .Where(c => c.CName != null)
+                .Select(c => c.CName)
+                .Distinct()
+                .ToListAsync();
+
+            specificDataOptions.AddRange(collectionNames.Where(n => n != null));
+            ViewBag.SpecificDataOptions = specificDataOptions;
+
+            return View(allRecords);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetFilterOptions(string category, string column)
+        {
+            List<string> options = new List<string> { "All" };
+
+            try
+            {
+                if (category == "Collections" || category == "All")
+                {
+                    if (column == "CName" || column == "All")
+                    {
+                        var names = await _context.Collections
+                            .Where(c => c.CName != null)
+                            .Select(c => c.CName)
+                            .Distinct()
+                            .Take(50)
+                            .ToListAsync();
+
+                        options.AddRange(names.Where(n => n != null));
+                    }
+                    else if (column == "Description")
+                    {
+                        // For descriptions, we might want to provide some meaningful excerpts
+                        // This is just an example - you may want to customize this
+                        var descriptions = await _context.Collections
+                            .Where(c => c.Description != null)
+                            .Select(c => c.Description.Length > 30
+                                ? c.Description.Substring(0, 27) + "..."
+                                : c.Description)
+                            .Distinct()
+                            .Take(20)
+                            .ToListAsync();
+
+                        options.AddRange(descriptions.Where(d => d != null));
+                    }
+                }
+                // Add other categories if needed
+            }
+            catch (Exception)
+            {
+                // Just return the default "All" option in case of an error
+            }
+
+            return Json(options);
         }
 
         // GET: Collections/Details/5

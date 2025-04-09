@@ -24,5 +24,5 @@ public partial class AudioFile
     public virtual Collection? CIdNavigation { get; set; }
 
     [NotMapped]
-    public string DisplayName { get; set; }
+    public string DisplayName { get; set; } = string.Empty;
 }

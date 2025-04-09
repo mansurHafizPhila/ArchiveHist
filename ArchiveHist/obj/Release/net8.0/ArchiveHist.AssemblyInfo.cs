@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArchiveHist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7983aa1763d373b75338a46987b2f21706f4b32f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e332469c0d54390d333d404bdc8249aae4f4528")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArchiveHist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArchiveHist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

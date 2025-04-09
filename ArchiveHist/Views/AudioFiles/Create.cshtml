@@ -10,11 +10,12 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="LinkName" class="control-label"></label>
                 <input asp-for="LinkName" class="form-control" />
+                <small class="form-text text-muted">Enter the full URL to the audio file</small>
                 <span asp-validation-for="LinkName" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -22,14 +23,14 @@
                 <select asp-for="CId" class ="form-control" asp-items="ViewBag.CId" disabled></select>
                 <input type="hidden" name="CId" value="9" />
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
+<div class="mt-3">
     <a asp-action="Index">Back to List</a>
 </div>
 
