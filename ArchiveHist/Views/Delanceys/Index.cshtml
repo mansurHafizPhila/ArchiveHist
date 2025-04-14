@@ -80,7 +80,8 @@
     <a asp-action="Index" asp-route-pageSize="-1" class="btn btn-sm @(ViewBag.PageSize == -1 ? "btn-primary" : "btn-outline-primary")">All</a>
 </div>
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-    <table class="table">
+    <table class="table-responsive">
+        <table class="table table-bordered">
         <thead>
             <tr>
                 <th>
@@ -158,13 +159,14 @@
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.DId">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.DId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.DId">Delete</a>
+                    @* <a asp-action="Delete" asp-route-id="@item.DId">Delete</a> *@
                 </td>
             </tr>
     }
         </tbody>
     </table>
 </div>
+
 @if (ViewBag.PageSize != -1)
 {
     <nav aria-label="Page navigation">

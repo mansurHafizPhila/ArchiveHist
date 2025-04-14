@@ -1,0 +1,60 @@
+﻿body {
+
+}
+/* Table styling with borders */
+.table-bordered {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #dee2e6;
+        padding: 0.75rem;
+        vertical-align: top;
+    }
+
+    .table-bordered thead th,
+    .table-bordered thead td {
+        border-bottom-width: 2px;
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+    .table-bordered tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .table-bordered tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+
+/* Scrollable table container */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+
+/* Filter badges styling */
+.filter-badge {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+    .filter-badge .close {
+        margin-left: 5px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.active-filters {
+    margin-top: 10px;
+}

@@ -82,14 +82,15 @@
 </div>
 
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-    <table class="table">
+    <table class="table-responsive">
+        <table class="table table-bordered">
         <thead>
             <tr>
                 <th>
                     @Html.DisplayNameFor(model => model.LinkName)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.CIdNavigation)
+                    @Html.DisplayNameFor(model => model.CId)
                 </th>
                 <th></th>
             </tr>
@@ -102,12 +103,12 @@
                         <a href="@item.LinkName" target="_blank">@item.DisplayName</a>
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+                        @Html.DisplayFor(modelItem => item.CId)
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.AId">Edit</a> |
                         <a asp-action="Details" asp-route-id="@item.AId">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.AId">Delete</a>
+                        @* <a asp-action="Delete" asp-route-id="@item.AId">Delete</a> *@
                     </td>
                 </tr>
             }

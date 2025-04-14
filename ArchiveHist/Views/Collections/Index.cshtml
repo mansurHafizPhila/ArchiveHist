@@ -72,9 +72,10 @@
 </div>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create"hidden>Create New</a>
 </p>
-<table class="table">
+<table class="table-responsive">
+    <table class="table table-bordered">
     <thead>
         <tr>
             <th>
@@ -98,12 +99,12 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.CId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CId">Delete</a>
+                @* <a asp-action="Delete" asp-route-id="@item.CId">Delete</a> *@
             </td>
         </tr>
 }
     </tbody>
-</table>
+</>
 
 <style>
     .filter-badge {
