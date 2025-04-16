@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tZrkHIVS55kmpR87GpShKCySX4xB3lgX7j4QcOFyC0s=",
+  "Hash": "RwTUx0Grt2WbFFP6spRxA/H9+hoMVjUYONl8vfHSDkw=",
   "Source": "ArchiveHist",
   "BasePath": "_content/ArchiveHist",
   "Mode": "Default",
@@ -141,6 +141,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\DPD_belllogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic1.jfif",
+      "SourceId": "ArchiveHist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\",
+      "BasePath": "_content/ArchiveHist",
+      "RelativePath": "Images/testpic1#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f6xqy3eaqf",
+      "Integrity": "d9iRvnZ6jX8EtH7qerT/J8RR2qSVECFJlj+8eJTCLng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\testpic1.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic2.jpg",
+      "SourceId": "ArchiveHist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\",
+      "BasePath": "_content/ArchiveHist",
+      "RelativePath": "Images/testpic2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k2kpxty4bx",
+      "Integrity": "JFlj4OEMo7DrM0kQ9D1cUicM7Gcy5fm7+r0ZV8jFOk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\testpic2.jpg"
     },
     {
       "Identity": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\js\\site.js",
@@ -1851,6 +1893,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-ccaBTUzHc/tueCVPcqzavhA+8u73U1oGVRwNocyFJKc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/testpic1.f6xqy3eaqf.jfif",
+      "AssetFile": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic1.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9iRvnZ6jX8EtH7qerT/J8RR2qSVECFJlj+8eJTCLng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f6xqy3eaqf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/testpic1.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9iRvnZ6jX8EtH7qerT/J8RR2qSVECFJlj+8eJTCLng="
+        }
+      ]
+    },
+    {
+      "Route": "Images/testpic1.jfif",
+      "AssetFile": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic1.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9iRvnZ6jX8EtH7qerT/J8RR2qSVECFJlj+8eJTCLng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:17:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9iRvnZ6jX8EtH7qerT/J8RR2qSVECFJlj+8eJTCLng="
+        }
+      ]
+    },
+    {
+      "Route": "Images/testpic2.jpg",
+      "AssetFile": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "641535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JFlj4OEMo7DrM0kQ9D1cUicM7Gcy5fm7+r0ZV8jFOk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:14:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JFlj4OEMo7DrM0kQ9D1cUicM7Gcy5fm7+r0ZV8jFOk8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/testpic2.k2kpxty4bx.jpg",
+      "AssetFile": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "641535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JFlj4OEMo7DrM0kQ9D1cUicM7Gcy5fm7+r0ZV8jFOk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:14:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k2kpxty4bx"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/testpic2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JFlj4OEMo7DrM0kQ9D1cUicM7Gcy5fm7+r0ZV8jFOk8="
         }
       ]
     },

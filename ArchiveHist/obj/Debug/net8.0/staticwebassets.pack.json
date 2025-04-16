@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\Images\\DPD_belllogo.png"
     },
     {
+      "Id": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic1.jfif",
+      "PackagePath": "staticwebassets\\Images\\testpic1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\Images\\testpic2.jpg",
+      "PackagePath": "staticwebassets\\Images\\testpic2.jpg"
+    },
+    {
       "Id": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
