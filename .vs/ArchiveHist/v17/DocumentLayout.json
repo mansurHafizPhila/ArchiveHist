@@ -7,44 +7,12 @@
       "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\trunkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\trunkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\researchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\researchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\reportspubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\reportspubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\poisonbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\poisonbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\oversizedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\oversizedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\mapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\mapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\delanceyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\delanceyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\collectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\collectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\controllers\\crosstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\controllers\\crosstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,17 +30,13 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ArchiveHist\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "ArchiveHist\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAFoAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArchiveHist\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-02T15:07:35.273Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Bookmark",
@@ -81,131 +45,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TrunksController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\TrunksController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\TrunksController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\TrunksController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\TrunksController.cs",
-              "ViewState": "AgIAAL8BAAAAAAAAAAAUwOkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:31:11.812Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Search\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "ArchiveHist\\Views\\Search\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T13:18:08.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ResearchesController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\ResearchesController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\ResearchesController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\ResearchesController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\ResearchesController.cs",
-              "ViewState": "AgIAAD4CAAAAAAAAAAAUwGgCAAAAAAAAAAAAAA==",
+              "Title": "CrossTable.cs",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\CrossTable.cs",
+              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\CrossTable.cs",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\CrossTable.cs",
+              "RelativeToolTip": "ArchiveHist\\Controllers\\CrossTable.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwKsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:31:05.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportsPubsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\ReportsPubsController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\ReportsPubsController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\ReportsPubsController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\ReportsPubsController.cs",
-              "ViewState": "AgIAAN8BAAAAAAAAAAAUwAkCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:31:00.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PoisonBooksController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\PoisonBooksController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\PoisonBooksController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\PoisonBooksController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\PoisonBooksController.cs",
-              "ViewState": "AgIAAMUBAAAAAAAAAAAUwO8BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:55.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhotosController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\PhotosController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\PhotosController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\PhotosController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\PhotosController.cs",
-              "ViewState": "AgIAAJ4BAAAAAAAAAAAUwMgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:49.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OversizedsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\OversizedsController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\OversizedsController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\OversizedsController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\OversizedsController.cs",
-              "ViewState": "AgIAAKQBAAAAAAAAAAAUwM4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:44.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MapsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\MapsController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\MapsController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\MapsController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\MapsController.cs",
-              "ViewState": "AgIAAJABAAAAAAAAAAAcwLwBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:38.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DelanceysController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\DelanceysController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\DelanceysController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\DelanceysController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\DelanceysController.cs",
-              "ViewState": "AgIAAEACAAAAAAAAAAAcwGwCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:31.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CollectionsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\CollectionsController.cs",
-              "RelativeDocumentMoniker": "ArchiveHist\\Controllers\\CollectionsController.cs",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Controllers\\CollectionsController.cs",
-              "RelativeToolTip": "ArchiveHist\\Controllers\\CollectionsController.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAcwB0BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:30:22.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T17:48:16.633Z",
+              "WhenOpened": "2025-04-16T12:50:02.857Z",
               "EditorCaption": ""
             }
           ]

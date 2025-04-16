@@ -67,7 +67,8 @@
                     </div>
                 <div class="content-overlay">
                     @RenderBody()
-                    <div class="dropdown p-2">
+                    <div class="d-flex align-items-center p-2">
+                        <div class="dropdown me-3">
                         <button class="btn btn-primary dropdown-toggle" type="button" id="insertDataDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Insert Data For...
                         </button>
@@ -84,11 +85,10 @@
                             <a class="dropdown-item" asp-controller="Trunks" asp-action="Create">Trunks</a>
                         </div>
                     </div>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Search" asp-action="Index">
-                                <i class="fas fa-search"></i> Global Search
-                            </a>
-                        </li>
+                    <a class="btn btn-secondary" asp-controller="Search" asp-action="Index">
+                        Search Across Tables
+                    </a>
+                </div>
                 </div>
             </div>
             }
