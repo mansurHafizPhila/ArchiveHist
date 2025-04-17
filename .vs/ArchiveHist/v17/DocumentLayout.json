@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\trunks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\trunks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\delanceys\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\delanceys\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\delanceys\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|solutionrelative:archivehist\\views\\delanceys\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D986D29C-18A6-4878-9EBA-2BCCEDF27B51}|ArchiveHist\\ArchiveHist.csproj|c:\\users\\abdu-mansur.hafiz\\documents\\github\\archivehist\\archivehist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ArchiveHist\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ArchiveHist\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAswFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswEIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-02T15:07:35.273Z",
               "IsPinned": true,
@@ -44,28 +44,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Trunks\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Trunks\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Trunks\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\Trunks\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Delanceys\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Delanceys\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Delanceys\\Edit.cshtml",
+              "RelativeToolTip": "ArchiveHist\\Views\\Delanceys\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T18:39:01.945Z",
+              "WhenOpened": "2025-04-17T16:32:33.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Search\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Search\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Search\\Index.cshtml",
-              "RelativeToolTip": "ArchiveHist\\Views\\Search\\Index.cshtml",
-              "ViewState": "AgIAAIwBAAAAAAAAAAAAAKEBAAAzAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Delanceys\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArchiveHist\\Views\\Delanceys\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\Views\\Delanceys\\Details.cshtml*",
+              "RelativeToolTip": "ArchiveHist\\Views\\Delanceys\\Details.cshtml*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T13:18:08.992Z",
+              "WhenOpened": "2025-04-17T16:32:13.9Z",
               "EditorCaption": ""
             }
           ]

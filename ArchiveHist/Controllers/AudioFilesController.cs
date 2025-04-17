@@ -314,7 +314,7 @@ namespace ArchiveHist.Controllers
                     options.AddRange(collectionIds);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Log the exception if needed
                 // Return just the "All" option in case of error
