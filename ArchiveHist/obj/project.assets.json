@@ -5662,7 +5662,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "yAC8VPNKxKVOPtV0tTbkC8uZkTptPbS4BV32jX7pU7SRKRsqASzOPtnocOJ43Fu3HjX1ggjdfuniGV6MrThBxw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -5677,11 +5677,12 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "Xrns1X0SaZ8EY8ZUktXVOfS5bcL3ia0s4L7TvtYO87YOi/6utBG3QCo9kxAmGe04vztZ/6MVSkvZ0xcmYmqDOQ==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7051,11 +7052,12 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "QVMe67bIlVkq9R9Az+5n4rAv61dXsUqPO1Ic1+b5iBlFOjWMAzTh/8693bmnzjyIhovpISSq55kpTXcpLZVsbQ==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7441,11 +7443,12 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "OU/wodZWa5av9iUCR1KRMqEOVBmRoV2LLjFiKR8pNqwrJIBuVwcti4fXPdLKRuqugofTYGoVwgeQhWsf5e4xHw==",
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7777,29 +7780,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mark.gambrel\\.nuget\\packages\\": {},
+    "C:\\Users\\ABdu-mansur.hafiz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mark.gambrel\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\ArchiveHist.csproj",
+      "projectUniqueName": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\ArchiveHist.csproj",
       "projectName": "ArchiveHist",
-      "projectPath": "C:\\Users\\mark.gambrel\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\ArchiveHist.csproj",
-      "packagesPath": "C:\\Users\\mark.gambrel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mark.gambrel\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\obj\\",
+      "projectPath": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\ArchiveHist.csproj",
+      "packagesPath": "C:\\Users\\ABdu-mansur.hafiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ABdu-mansur.hafiz\\Documents\\GitHub\\ArchiveHist\\ArchiveHist\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mark.gambrel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ABdu-mansur.hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7817,7 +7825,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -7867,7 +7876,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
