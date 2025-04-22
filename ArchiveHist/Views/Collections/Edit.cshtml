@@ -51,9 +51,10 @@
                     @Html.DisplayFor(model => model.Description)
                 </dd>
             </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="CId" />
+
+                <form asp-action="Delete" asp-route-id="@Model.CId" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="CId" />
                     <button type="submit" class="btn btn-danger"
                             onclick="return confirm('Are you absolutely sure you want to delete this item?');">
                         Delete
