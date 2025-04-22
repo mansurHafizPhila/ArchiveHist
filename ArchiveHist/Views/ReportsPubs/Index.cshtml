@@ -4,13 +4,85 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Reports and Publications</h1>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <form asp-action="Index" method="get" id="searchForm">
+            <input type="hidden" name="pageSize" value="@ViewBag.PageSize" />
+            <input type="hidden" name="pageNumber" value="1" />
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search by Link Name..." name="searchString" value="@ViewBag.CurrentSearchString">
+                <button class="btn btn-primary" type="submit" style="margin-left:1%; margin-right:1%">Search</button>
+                <button class="btn btn-secondary" type="button" onclick="clearSearch()">Clear</button>
+            </div>
+
+            <!-- Active Filters Section -->
+            <div class="active-filters mt-2">
+                @if (!string.IsNullOrEmpty(ViewBag.CurrentSearchString) ||
+                (ViewBag.CurrentCategory != null && ViewBag.CurrentCategory != "All") ||
+                (ViewBag.CurrentColumn != null && ViewBag.CurrentColumn != "All") ||
+                (ViewBag.CurrentSpecificData != null && ViewBag.CurrentSpecificData != "All"))
+                {
+                    <div class="d-flex align-items-center mb-2">
+                        <strong class="me-2">Active filters:</strong>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="clearSearch()">
+                            Clear All
+                        </button>
+                    </div>
+
+                    <div class="filter-badges">
+                        @if (!string.IsNullOrEmpty(ViewBag.CurrentSearchString))
+                        {
+                            <span class="filter-badge">
+                                Search: @ViewBag.CurrentSearchString
+                                <span class="close" onclick="clearFilter('searchString')">&times;</span>
+                            </span>
+                        }
+
+                        @if (ViewBag.CurrentCategory != null && ViewBag.CurrentCategory != "All")
+                        {
+                            <span class="filter-badge">
+                                Category: @ViewBag.CurrentCategory
+                                <span class="close" onclick="clearFilter('category')">&times;</span>
+                            </span>
+                        }
+
+                        @if (ViewBag.CurrentColumn != null && ViewBag.CurrentColumn != "All")
+                        {
+                            <span class="filter-badge">
+                                Column: @ViewBag.CurrentColumn
+                                <span class="close" onclick="clearFilter('column')">&times;</span>
+                            </span>
+                        }
+
+                        @if (ViewBag.CurrentSpecificData != null && ViewBag.CurrentSpecificData != "All")
+                        {
+                            <span class="filter-badge">
+                                Specific Data: @ViewBag.CurrentSpecificData
+                                <span class="close" onclick="clearFilter('specificData')">&times;</span>
+                            </span>
+                        }
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+</div>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<div class="mb-3">
+    <span>Show items: </span>
+    <a asp-action="Index" asp-route-pageSize="20" class="btn btn-sm @(ViewBag.PageSize == 20 ? "btn-primary" : "btn-outline-primary")">20</a>
+    <a asp-action="Index" asp-route-pageSize="50" class="btn btn-sm @(ViewBag.PageSize == 50 ? "btn-primary" : "btn-outline-primary")">50</a>
+    <a asp-action="Index" asp-route-pageSize="-1" class="btn btn-sm @(ViewBag.PageSize == -1 ? "btn-primary" : "btn-outline-primary")">All</a>
+</div>
+<table class="table-responsive">
+    <table class="table table-bordered">
+        <thead class="card-header bg-primary text-white">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Title)
@@ -34,7 +106,7 @@
                 @Html.DisplayNameFor(model => model.Notes)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CIdNavigation)
+                @Html.DisplayNameFor(model => model.CId)
             </th>
             <th></th>
         </tr>
@@ -64,14 +136,174 @@
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CIdNavigation.CId)
+                @Html.DisplayFor(modelItem => item.CId)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.RpId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.RpId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.RpId">Delete</a>
+                @* <a asp-action="Delete" asp-route-id="@item.RpId">Delete</a> *@
             </td>
         </tr>
 }
     </tbody>
 </table>
+@if (ViewBag.PageSize != -1)
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.PageNumber ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-pageSize="@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+
+<div class="text-muted">
+    Showing @(ViewBag.PageSize == -1 ? "all" : $"{Math.Min((ViewBag.PageNumber - 1) * ViewBag.PageSize + 1, ViewBag.TotalCount)} - {Math.Min(ViewBag.PageNumber * ViewBag.PageSize, ViewBag.TotalCount)}") of @ViewBag.TotalCount items
+</div>
+
+<style>
+    .filter-badge {
+        background-color: #e9ecef;
+        color: #495057;
+        padding: 5px 10px;
+        border-radius: 15px;
+        margin-right: 5px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+        .filter-badge .close {
+            margin-left: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+    .active-filters {
+        margin-top: 10px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        // Function to handle the dynamic filtering options
+        $(document).ready(function() {
+            // When category changes, update column options
+            $('#categorySelect').change(function() {
+                updateColumnOptions();
+            });
+
+            // When column changes, update specific data options
+            $('#columnSelect').change(function() {
+                updateSpecificDataOptions();
+            });
+
+            // Initialize column and specific data options
+            updateColumnOptions();
+
+            // Listen for changes in advanced search fields to auto-submit
+            $('#categorySelect, #columnSelect, #specificDataSelect').change(function() {
+                $('#searchForm').submit();
+            });
+        });
+
+        function updateColumnOptions() {
+            const category = $('#categorySelect').val();
+            let columns = [];
+
+            // Reset to page 1 when changing filters
+            $('input[name="pageNumber"]').val(1);
+
+            // Define columns based on selected category
+            if (category === 'All') {
+                columns = ['All', 'Title', 'TotalInSeriesCopies', 'Date', 'AgencyAuthorS', 'Tags', 'Notes', 'CId'];
+            } else if (category === 'ReportsPubs') {
+                columns = ['All', 'Title', 'TotalInSeriesCopies', 'Date', 'AgencyAuthorS', 'Tags', 'Notes', 'CId'];
+            } else if (category === 'ReportsPubs') {
+                columns = ['All', 'CId'];
+            }
+
+            // Update column select options
+            const columnSelect = $('#columnSelect');
+            const currentColumn = columnSelect.val();
+            columnSelect.empty();
+
+            columns.forEach(column => {
+                columnSelect.append(new Option(column, column, column === currentColumn, column === currentColumn));
+            });
+
+            updateSpecificDataOptions();
+        }
+
+        function updateSpecificDataOptions() {
+            const category = $('#categorySelect').val();
+            const column = $('#columnSelect').val();
+
+            // Fetch specific data options via AJAX
+            $.ajax({
+                url: '@Url.Action("GetFilterOptions", "ReportsPubs")',
+                type: 'GET',
+                data: {
+                    category: category,
+                    column: column
+                },
+                success: function(data) {
+                    const specificDataSelect = $('#specificDataSelect');
+                    const currentValue = specificDataSelect.val();
+                    specificDataSelect.empty();
+
+                    // Add the options returned from the server
+                    data.forEach(option => {
+                        specificDataSelect.append(new Option(option, option, option === currentValue, option === currentValue));
+                    });
+
+                    // If there's no match for the current value, select 'All'
+                    if (specificDataSelect.val() === null) {
+                        specificDataSelect.val('All');
+                    }
+                },
+                error: function() {
+                    // If there's an error, just add the 'All' option
+                    const specificDataSelect = $('#specificDataSelect');
+                    specificDataSelect.empty();
+                    specificDataSelect.append(new Option('All', 'All', true, true));
+                }
+            });
+        }
+
+        function clearSearch() {
+            // Clear all search parameters and submit the form
+            $('input[name="searchString"]').val('');
+            $('#categorySelect').val('All');
+            $('#columnSelect').val('All');
+            $('#specificDataSelect').val('All');
+            $('#searchForm').submit();
+        }
+
+        function clearFilter(filterName) {
+            // Clear a specific filter and submit the form
+            if (filterName === 'searchString') {
+                $('input[name="searchString"]').val('');
+            } else if (filterName === 'category') {
+                $('#categorySelect').val('All');
+                // Also reset dependent dropdowns
+                updateColumnOptions();
+            } else if (filterName === 'column') {
+                $('#columnSelect').val('All');
+                // Also reset dependent dropdown
+                updateSpecificDataOptions();
+            } else if (filterName === 'specificData') {
+                $('#specificDataSelect').val('All');
+            }
+
+            // Reset to page 1
+            $('input[name="pageNumber"]').val(1);
+
+            // Submit the form
+            $('#searchForm').submit();
+        }
+    </script>
+}

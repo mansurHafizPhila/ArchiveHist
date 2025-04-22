@@ -22,4 +22,7 @@ public partial class AudioFile
     [ForeignKey("CId")]
     [InverseProperty("AudioFiles")]
     public virtual Collection? CIdNavigation { get; set; }
+
+    [NotMapped]
+    public string DisplayName { get; set; } = string.Empty;
 }
