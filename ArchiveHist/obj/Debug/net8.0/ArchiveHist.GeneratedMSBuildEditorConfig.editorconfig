@@ -17,245 +17,238 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArchiveHist
 build_property.RootNamespace = ArchiveHist
-build_property.ProjectDir = C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\
+build_property.ProjectDir = C:\Users\mark.gambrel\Documents\GitHub\ArchiveHist\ArchiveHist\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist
+build_property.MSBuildProjectDirectory = C:\Users\mark.gambrel\Documents\GitHub\ArchiveHist\ArchiveHist
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaW9GaWxlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaW9GaWxlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaW9GaWxlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaW9GaWxlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/AudioFiles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaW9GaWxlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Collections/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsYW5jZXlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsYW5jZXlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsYW5jZXlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsYW5jZXlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Delanceys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsYW5jZXlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Home/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Home/Privacy.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Maps/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNpemVkc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNpemVkc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNpemVkc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNpemVkc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Oversizeds/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNpemVkc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Photos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pc29uQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pc29uQm9va3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pc29uQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pc29uQm9va3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/PoisonBooks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pc29uQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1B1YnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1B1YnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1B1YnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1B1YnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/ReportsPubs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1B1YnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZWFyY2hlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZWFyY2hlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZWFyY2hlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZWFyY2hlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Researches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZWFyY2hlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Search/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Create.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmtzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Delete.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmtzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Details.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmtzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Edit.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmtzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Index.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Trunks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1bmtzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/_ViewImports.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/_ViewStart.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ABdu-mansur.hafiz/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Shared/_Layout.cshtml]
+[C:/Users/mark.gambrel/Documents/GitHub/ArchiveHist/ArchiveHist/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k0nmsknrtl
