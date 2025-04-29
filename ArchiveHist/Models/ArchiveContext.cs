@@ -35,6 +35,8 @@ public partial class ArchiveContext : DbContext
 
     public virtual DbSet<Trunk> Trunks { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=dpdalidsql02.city.phila.local;Initial Catalog=DPD_ArchiveHist;Trusted_Connection=True; Encrypt=false;TrustServerCertificate=True;User ID=DPD_ArchiveHist_dev_app;Password=F0r!PlanningDevelopment");
@@ -107,6 +109,11 @@ public partial class ArchiveContext : DbContext
             entity.HasKey(e => e.TId).HasName("PK_tid");
 
             entity.HasOne(d => d.CIdNavigation).WithMany(p => p.Trunks).HasConstraintName("FK_ci__d");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.ID);
         });
 
         OnModelCreatingPartial(modelBuilder);
