@@ -535,3 +535,4 @@ C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\obj\Debug\ne
 C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\obj\Debug\net8.0\ArchiveHist.pdb
 C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\obj\Debug\net8.0\ArchiveHist.genruntimeconfig.cache
 C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\obj\Debug\net8.0\ref\ArchiveHist.dll
+C:\Users\ABdu-mansur.hafiz\Documents\GitHub\ArchiveHist\ArchiveHist\bin\Debug\net8.0\web.config
